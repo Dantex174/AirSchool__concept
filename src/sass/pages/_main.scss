@@ -1,7 +1,8 @@
 .header {
+    position: absolute;
     width: 100%;
     height: 80px;
-    background-color: #0b539c;
+    // background-color: #0b539c;
     z-index: 999;
     &__wrapper {
         display: flex;
@@ -16,13 +17,15 @@
             list-style: none;
             padding: 25px 10px;
             margin: 0 auto;
+            padding-left: 120px;
         }
         &__link {
             transition: 0.2s;
+            padding: 0 10px;
             &:hover {
                 background-color: #007dfd;
                 border-radius: 15px;
-                padding: 0 15px;
+
                 border: 1px solid white;
             }
             a {
@@ -37,8 +40,8 @@
     }
 }
 .promo {
-    max-height: 695px;
-    padding: 65px 135px 135px 135px;
+    max-height: 740px;
+    padding: 105px 135px 135px 135px;
     background: url(../img/bg/promo.jpg) center (center/cover) no-repeat;
     &__wrapper {
         display: flex;
